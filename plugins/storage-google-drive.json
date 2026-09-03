@@ -3,7 +3,7 @@
   "name": "Google Drive Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-google-drive",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-google-drive",
   "description": "Back up containers to Google Drive via the Drive API v3 resumable upload protocol. OAuth refresh-token flow (drive.file scope, offline access). Large backups use resumable chunked uploads so there is no size cap. Same Test round-trip shape as the built-in local destination (write / change / delete).",
   "category": "storage",
   "icon": "plugin.svg",

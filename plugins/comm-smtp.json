@@ -3,7 +3,7 @@
   "name": "SMTP Communication Channel",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-smtp",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-smtp",
   "description": "Adds SMTP email as a communication channel for workflow, alert, and backup notifications. This is a channel adapter, not an email-server adapter.",
   "category": "Communication channels",
   "icon": "plugin.svg",

@@ -3,7 +3,7 @@
   "name": "Syslog Forwarder",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/logging-syslog",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/logging-syslog",
   "description": "Forwards McHarbor audit events to a syslog collector (rsyslog, syslog-ng, QRadar, ArcSight) as RFC5424 messages over UDP, TCP, or TCP+TLS. Facility, tag, and per-event severity mapping are configurable. This is a log forwarder adapter owned by the plugin runtime; configure it in Settings > Integrations > Logging.",
   "category": "Audit log forwarders",
   "icon": "plugin.svg",

@@ -3,7 +3,7 @@
   "name": "Microsoft Teams Notification Channel",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-teams",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-teams",
   "description": "Microsoft Teams Incoming Webhook connector channel. POSTs an Adaptive Card (Title as a bold TextBlock header, Message as a wrapping TextBlock body) to a Teams channel webhook URL with an optional themeColor for the left accent stripe. Adds the channels:use-comm-teams permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
   "category": "communication",
   "icon": "plugin.svg",

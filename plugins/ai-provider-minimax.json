@@ -3,7 +3,7 @@
   "name": "MiniMax AI provider",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-minimax",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-minimax",
   "description": "Routes McHarbor AI chat completions through MiniMax's OpenAI-compatible API.",
   "category": "AI providers",
   "icon": "plugin.svg",

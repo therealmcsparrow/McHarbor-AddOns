@@ -3,7 +3,7 @@
   "name": "Slack Communication Channel",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-slack",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-slack",
   "description": "Adds Slack incoming webhooks as a communication channel for workflow, alert, and backup notifications. This is a channel adapter owned by the plugin runtime.",
   "category": "Communication channels",
   "icon": "plugin.svg",

@@ -3,7 +3,7 @@
   "name": "Ollama local AI provider",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-ollama",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-ollama",
   "description": "Connects McHarbor AI chat to a self-hosted Ollama server and locally hosted models.",
   "category": "AI providers",
   "icon": "plugin.svg",

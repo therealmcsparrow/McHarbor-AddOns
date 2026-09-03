@@ -3,7 +3,7 @@
   "name": "Box Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-box",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-box",
   "description": "Back up containers to Box (box.com) via the Box Content API. Two auth modes: delegated OAuth (refresh_token grant, scopes: root_readwrite) or app-only client_credentials grant with subject_type {enterprise | user} + subject_id. Chunked uploads use /2.0/files/upload_sessions with 8 MiB parts; small files (<=50 MiB) take the simpler /2.0/files/content multipart endpoint. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
   "category": "storage",
   "icon": "plugin.svg",

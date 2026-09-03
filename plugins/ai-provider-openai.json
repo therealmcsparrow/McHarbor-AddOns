@@ -3,7 +3,7 @@
   "name": "OpenAI AI provider",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-openai",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-openai",
   "description": "Routes McHarbor AI chat completions through OpenAI with support for GPT and o-series models.",
   "category": "AI providers",
   "icon": "plugin.svg",

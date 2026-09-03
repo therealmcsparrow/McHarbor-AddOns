@@ -3,7 +3,7 @@
   "name": "Kubernetes",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/addon-kubernetes",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/addon-kubernetes",
   "description": "Manage Kubernetes clusters from McHarbor: pods, deployments and other workloads, services and networking, storage, config, namespaces, nodes and events \u2014 with pod logs, deployment scaling and rolling restarts. Cluster connections are owned by the plugin and their kubeconfig and bearer-token credentials are encrypted at rest with the host's own key.",
   "category": "Orchestration",
   "icon": "plugin.svg",

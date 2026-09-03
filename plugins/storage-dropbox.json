@@ -3,7 +3,7 @@
   "name": "Dropbox Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-dropbox",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-dropbox",
   "description": "Back up containers to Dropbox via the Dropbox HTTP API. Auth: a long-lived access token from a Dropbox app (https://www.dropbox.com/developers/apps). Chunked uploads use /2/files/upload_session with 8 MiB parts; small files take the simpler /2/files/upload endpoint. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
   "category": "storage",
   "icon": "plugin.svg",

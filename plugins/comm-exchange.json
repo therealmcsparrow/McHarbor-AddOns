@@ -3,7 +3,7 @@
   "name": "Exchange Communication Channel",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-exchange",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-exchange",
   "description": "Adds Exchange Online / Microsoft Graph email as a communication channel for workflow, alert, and backup notifications. This is a channel adapter, not an email-server adapter.",
   "category": "Communication channels",
   "icon": "plugin.svg",

@@ -3,7 +3,7 @@
   "name": "FTP/FTPS Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-ftp",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-ftp",
   "description": "Back up containers to an FTP (RFC 959) or FTPS (RFC 4217) server. Auth methods: anonymous, password, FTPS-explicit (AUTH TLS), FTPS-implicit (port 990), and client-certificate (mTLS).",
   "category": "storage",
   "icon": "plugin.svg",

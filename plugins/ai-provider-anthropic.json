@@ -3,7 +3,7 @@
   "name": "Anthropic Claude AI provider",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-anthropic",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-anthropic",
   "description": "Routes McHarbor AI chat completions through Anthropic's Messages API for Claude models.",
   "category": "AI providers",
   "icon": "plugin.svg",
