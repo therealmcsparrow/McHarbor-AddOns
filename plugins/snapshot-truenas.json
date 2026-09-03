@@ -10,7 +10,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "download_url": "file:///mnt/plugin-catalog/files/snapshot-truenas-1.0.0.tar.gz"
+      "download_url": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/files/snapshot-truenas-1.0.0.tar.gz"
     }
   ]
 }

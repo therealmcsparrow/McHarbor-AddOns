@@ -3,14 +3,14 @@
   "name": "Nextcloud Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/Plugins/storage-nextcloud",
+  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-nextcloud",
   "description": "Back up containers to a Nextcloud instance via WebDAV (RFC 4918). Two auth modes: OAuth 2.0 refresh-token flow (with the operator creating an OAuth2 client in /settings/admin/oauth2) or direct app-password authentication (the operator generates an app password in Personal settings \u2192 Security). Chunked uploads use the WebDAV PUT stream with Content-Length + Content-Range; large uploads work because Nextcloud's WebDAV server supports chunked ranges server-side. Same Test round-trip shape (write / change / delete) as the SharePoint and Google Drive plugins.",
   "category": "storage",
   "icon": "plugin.svg",
   "versions": [
     {
       "version": "1.0.0",
-      "download_url": "file:///mnt/plugin-catalog/files/storage-nextcloud-1.0.0.tar.gz"
+      "download_url": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/files/storage-nextcloud-1.0.0.tar.gz"
     }
   ]
 }

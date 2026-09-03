@@ -10,7 +10,7 @@
   "versions": [
     {
       "version": "1.0.4",
-      "download_url": "file:///mnt/plugin-catalog/files/storage-onedrive-personal-1.0.4.tar.gz"
+      "download_url": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/files/storage-onedrive-personal-1.0.4.tar.gz"
     }
   ]
 }

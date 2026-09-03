@@ -3,14 +3,14 @@
   "name": "Samba (SMB) Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/Plugins/storage-samba",
+  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-samba",
   "description": "Back up containers to a Samba (SMB) share via TCP (port 445) using hirochachacha/go-smb2. Three auth modes: guest (configurable guest account, requires `guest ok = yes` on the share), basic (NTLMv2 workgroup user + password), and domain (NTLMv2 with explicit Windows domain). Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
   "category": "storage",
   "icon": "plugin.svg",
   "versions": [
     {
       "version": "1.0.0",
-      "download_url": "file:///mnt/plugin-catalog/files/storage-samba-1.0.0.tar.gz"
+      "download_url": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/files/storage-samba-1.0.0.tar.gz"
     }
   ]
 }

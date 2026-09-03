@@ -3,14 +3,14 @@
   "name": "SFTP Storage Destination",
   "author": "McSparrow <hi@mcsparrow.dev>",
   "license": "McHarbor",
-  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/Plugins/storage-sftp",
+  "homepage": "hhttps://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-sftp",
   "description": "Back up containers to an SFTP (SSH File Transfer Protocol) server. Auth methods: password, publickey (SSH private key + optional passphrase), keyboard-interactive (RFC 4256 \u2014 Duo / Okta / SecurID), and SSH agent.",
   "category": "storage",
   "icon": "plugin.svg",
   "versions": [
     {
       "version": "1.0.0",
-      "download_url": "file:///mnt/plugin-catalog/files/storage-sftp-1.0.0.tar.gz"
+      "download_url": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/files/storage-sftp-1.0.0.tar.gz"
     }
   ]
 }
