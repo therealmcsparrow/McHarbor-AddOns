@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "addon-kubernetes",
+    "name": "Kubernetes",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/addon-kubernetes",
+    "description": "Manage Kubernetes clusters from McHarbor: pods, deployments and other workloads, services and networking, storage, config, namespaces, nodes and events — with pod logs, deployment scaling and rolling restarts. Cluster connections are owned by the plugin and their kubeconfig and bearer-token credentials are encrypted at rest with the host's own key.",
+    "category": "Orchestration",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/addon-kubernetes-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "addon-reporting",
+    "name": "Reporting",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/addon-reporting",
+    "description": "Generate board-presentable reports on environments, workloads, incidents, security, capacity, delivery and recovery. Each report is organised by management altitude — strategic, tactical and operational — is readable inside McHarbor, and exports to PDF and Word with the product's own typography and marks.",
+    "category": "Reporting",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/addon-reporting-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "ai-provider-anthropic",
+    "name": "Anthropic Claude AI provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-anthropic",
+    "description": "Routes McHarbor AI chat completions through Anthropic's Messages API for Claude models.",
+    "category": "AI providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/ai-provider-anthropic-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "ai-provider-minimax",
+    "name": "MiniMax AI provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-minimax",
+    "description": "Routes McHarbor AI chat completions through MiniMax's OpenAI-compatible API.",
+    "category": "AI providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/ai-provider-minimax-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "ai-provider-mistral",
+    "name": "Mistral AI provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-mistral",
+    "description": "Routes McHarbor AI chat completions through Mistral's API for Mistral and Mixtral models.",
+    "category": "AI providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/ai-provider-mistral-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "ai-provider-ollama",
+    "name": "Ollama local AI provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-ollama",
+    "description": "Connects McHarbor AI chat to a self-hosted Ollama server and locally hosted models.",
+    "category": "AI providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/ai-provider-ollama-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "ai-provider-openai",
+    "name": "OpenAI AI provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/ai-provider-openai",
+    "description": "Routes McHarbor AI chat completions through OpenAI with support for GPT and o-series models.",
+    "category": "AI providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/ai-provider-openai-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-discord",
+    "name": "Discord Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-discord",
+    "description": "Adds Discord webhooks as a communication channel for workflow, alert, and backup notifications. This is a channel adapter owned by the plugin runtime.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-discord-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-exchange",
+    "name": "Exchange Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-exchange",
+    "description": "Adds Exchange Online / Microsoft Graph email as a communication channel for workflow, alert, and backup notifications. This is a channel adapter, not an email-server adapter.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-exchange-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-gmail",
+    "name": "Gmail Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-gmail",
+    "description": "Adds Gmail API email as a communication channel for workflow, alert, and backup notifications. This is a channel adapter, not an email-server adapter.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-gmail-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-gotify",
+    "name": "Gotify Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-gotify",
+    "description": "Adds Gotify as a communication channel for workflow, alert, and backup notifications. This is a channel adapter owned by the plugin runtime.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-gotify-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-ntfy",
+    "name": "ntfy Notification Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/comm-ntfy",
+    "description": "Route McHarbor workflow, alert, and backup events to an ntfy topic via HTTP POST (https://ntfy.sh or self-hosted). Set the server URL + topic, optionally add a topic-scoped access token or HTTP Basic auth, and the plugin handles Test (publishes a real test message) + Send (publishes Title as the Title header and Message as the body). Supports priority levels (min/low/default/high/urgent) and emoji tags. Adds the channels:use-comm-ntfy permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+    "category": "communication",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-ntfy-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-signal",
+    "name": "Signal Notification Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/comm-signal",
+    "description": "Route McHarbor workflow, alert, and backup events to a Signal phone number via one of four connection methods selected at channel-config time: official signal-cli-rest-api (POST /v2/send with optional HTTP Basic auth), token-based Signal bot server (POST /message with Bearer token), signald daemon JSON-RPC 2.0 API (POST /v1/accounts/<account>/rpc), or a no-auth community relay (POST /send). The plugin handles Test (cheap credential round-trip) and Send (real message to the recipient) — Signal gateways use pre-registered numbers + bearer tokens, so there is no OAuth flow. Adds the channels:use-comm-signal permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+    "category": "communication",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-signal-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-slack",
+    "name": "Slack Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-slack",
+    "description": "Adds Slack incoming webhooks as a communication channel for workflow, alert, and backup notifications. This is a channel adapter owned by the plugin runtime.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-slack-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-smtp",
+    "name": "SMTP Communication Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-smtp",
+    "description": "Adds SMTP email as a communication channel for workflow, alert, and backup notifications. This is a channel adapter, not an email-server adapter.",
+    "category": "Communication channels",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-smtp-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-teams",
+    "name": "Microsoft Teams Notification Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/comm-teams",
+    "description": "Microsoft Teams Incoming Webhook connector channel. POSTs an Adaptive Card (Title as a bold TextBlock header, Message as a wrapping TextBlock body) to a Teams channel webhook URL with an optional themeColor for the left accent stripe. Adds the channels:use-comm-teams permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+    "category": "communication",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-teams-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-telegram",
+    "name": "Telegram Notification Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/comm-telegram",
+    "description": "Route McHarbor workflow, alert, and backup events to a Telegram chat via the Bot API (https://api.telegram.org/bot<token>/...). Create a bot with @BotFather, drop the bot_token + chat_id into the channel form, and the plugin handles Test (getMe liveness) + Send (sendMessage). Supports Markdown / HTML parse_mode and silent sends for low-priority alerts. Adds the channels:use-comm-telegram permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+    "category": "communication",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-telegram-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "comm-whatsapp",
+    "name": "WhatsApp Notification Channel",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/comm-whatsapp",
+    "description": "Route McHarbor workflow, alert, and backup events to a WhatsApp phone number via one of four connection methods selected at channel-config time: Meta Cloud API (graph.facebook.com /v21.0/<phone_id>/messages), self-hosted gateway (Baileys/wa-gateway/etc.), WhatsApp Business API platform (360dialog-style), or a third-party SaaS messaging provider (Twilio, MessageBird, Gupshup, ...). The plugin handles Test (cheap credential round-trip) and Send (real message to the recipient) — there is no OAuth flow because WhatsApp providers use long-lived tokens. Adds the channels:use-comm-whatsapp permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+    "category": "communication",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/comm-whatsapp-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "identity-entra-id",
+    "name": "Microsoft Entra ID Identity Provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/identity-entra-id",
+    "description": "Microsoft Entra ID identity provider. OIDC authorization-code flow against the v2.0 endpoints at login.microsoftonline.com plus the Microsoft Graph API for group fetching. Required fields: tenant_id (directory or tenant GUID), client_id, client_secret, default_role_id; optional scopes, group_filter, admin_consent. Tile shows up in Settings > Security > Identity Providers as 'Microsoft Entra ID'.",
+    "category": "Identity providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/identity-entra-id-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "identity-generic-oidc",
+    "name": "Generic OIDC Identity Provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/identity-generic-oidc",
+    "description": "Generic OIDC identity provider. Discover the authorization endpoint, token endpoint, JWKS, and userinfo endpoint from any issuer's <issuer>/.well-known/openid-configuration. Works with Okta, Auth0, Keycloak, Authentik, Authelia, Google, Azure AD, AWS Cognito, and any other spec-compliant OIDC provider. Required fields: issuer_url, client_id, client_secret, default_role_id; optional scopes (defaults to 'openid profile email'). Does not fetch groups — group mapping is not supported for generic OIDC. Tile shows up in Settings > Security > Identity Providers as 'Generic OIDC'.",
+    "category": "Identity providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/identity-generic-oidc-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "identity-google",
+    "name": "Google Workspace Identity Provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/identity-google",
+    "description": "Google Workspace identity provider (also works for personal @gmail.com accounts). OIDC authorization-code flow against accounts.google.com plus the Google Admin SDK Directory API for group fetching when a domain is configured. Required fields: client_id, client_secret, default_role_id; optional hosted_domain (lock to a Workspace), scopes, group_filter. Tile shows up in Settings > Security > Identity Providers as 'Google'.",
+    "category": "Identity providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/identity-google-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "identity-ldap",
+    "name": "LDAP Identity Provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/identity-ldap",
+    "description": "LDAP / Active Directory identity provider. Plug the bind credentials into McHarbor's login form; the plugin binds, searches for the user, optionally looks up group memberships, and provisions a session. Required fields: server_url (ldap:// or ldaps://), base_dn, bind_dn, bind_password, user_filter; optional group_search_base, group_filter, use_tls, skip_tls_verify. Works with OpenLDAP, 389-DS, FreeIPA, Active Directory. Tile shows up in Settings > Security > Identity Providers as 'LDAP'.",
+    "category": "Identity providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/identity-ldap-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "identity-saml",
+    "name": "SAML 2.0 Identity Provider",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/identity-saml",
+    "description": "SAML 2.0 service provider. Hosts the SP metadata at /api/identity-providers/{id}/metadata (consumed by the IdP) and accepts AuthnResponse POSTs at /api/identity-providers/acs. Required fields: entity_id (SP entity ID), default_role_id; optional metadata_url (auto-populate IdP SSO URL + cert), idp_entity_id, idp_sso_url, idp_certificate, group_attribute_name. Compatible with Okta, Azure AD, OneLogin, Auth0, Google Workspace, AD FS. Tile shows up in Settings > Security > Identity Providers as 'SAML 2.0'.",
+    "category": "Identity providers",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/identity-saml-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "logging-siem",
+    "name": "SIEM HTTP Forwarder",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/logging-siem",
+    "description": "Forwards McHarbor audit events to an HTTP SIEM collector (Splunk HEC, Microsoft Sentinel, Elastic, Datadog). Each event is POSTed as a JSON document with an HMAC-SHA256 signature and a SHA-256 body checksum so the collector can verify integrity and origin. This is a log forwarder adapter owned by the plugin runtime; configure it in Settings > Integrations > Logging.",
+    "category": "Audit log forwarders",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/logging-siem-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "logging-syslog",
+    "name": "Syslog Forwarder",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/logging-syslog",
+    "description": "Forwards McHarbor audit events to a syslog collector (rsyslog, syslog-ng, QRadar, ArcSight) as RFC5424 messages over UDP, TCP, or TCP+TLS. Facility, tag, and per-event severity mapping are configurable. This is a log forwarder adapter owned by the plugin runtime; configure it in Settings > Integrations > Logging.",
+    "category": "Audit log forwarders",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/logging-syslog-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "scanner-clair",
+    "name": "Clair Scanner",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/scanner-clair",
+    "description": "Scans container images against an external Clair v4 server. Indexes the image through Clair's indexer API and reports matched CVEs from its matcher API, with an optional bearer token stored encrypted. Because a scanner is a named instance, one install can back a production Clair and a staging one. Configure it in Security > Scanners.",
+    "category": "Vulnerability scanners",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/scanner-clair-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "scanner-grype",
+    "name": "Grype Scanner",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/scanner-grype",
+    "description": "Scans container images for vulnerabilities with Anchore's Grype. Covers OS and language packages, runs entirely inside the McHarbor container, and needs no external service. Grype and Trivy draw on overlapping but not identical advisory feeds, so running both is a reasonable arrangement. Configure it in Security > Scanners.",
+    "category": "Vulnerability scanners",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/scanner-grype-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "scanner-trivy",
+    "name": "Trivy Scanner",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/scanner-trivy",
+    "description": "Scans container images for vulnerabilities with Aqua Security's Trivy. Covers OS packages and language dependencies, runs entirely inside the McHarbor container, and needs no external service. This is an image scanner adapter owned by the plugin runtime; configure it in Security > Scanners.",
+    "category": "Vulnerability scanners",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/scanner-trivy-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "snapshot-synology",
+    "name": "Synology DSM Snapshot Driver",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/snapshot-synology",
+    "description": "Synology DSM snapshot repository via the DSM 7.x REST API. Filesystem-level snapshots without `docker pause`.",
+    "category": "snapshots",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/snapshot-synology-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "snapshot-truenas",
+    "name": "TrueNAS Snapshot Driver",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/snapshot-truenas",
+    "description": "TrueNAS SCALE / CORE snapshot repository via the middleware REST API. Filesystem-level ZFS snapshots without `docker pause`.",
+    "category": "snapshots",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/snapshot-truenas-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "snapshot-zfs",
+    "name": "ZFS Snapshot Driver",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/snapshot-zfs",
+    "description": "Local ZFS snapshot driver. Filesystem-level snapshots without `docker pause`. Supports pool/dataset filtering and optional SSH target.",
+    "category": "snapshots",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/snapshot-zfs-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-box",
+    "name": "Box Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-box",
+    "description": "Back up containers to Box (box.com) via the Box Content API. Two auth modes: delegated OAuth (refresh_token grant, scopes: root_readwrite) or app-only client_credentials grant with subject_type {enterprise | user} + subject_id. Chunked uploads use /2.0/files/upload_sessions with 8 MiB parts; small files (<=50 MiB) take the simpler /2.0/files/content multipart endpoint. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-box-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-dropbox",
+    "name": "Dropbox Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-dropbox",
+    "description": "Back up containers to Dropbox via the Dropbox HTTP API. Auth: a long-lived access token from a Dropbox app (https://www.dropbox.com/developers/apps). Chunked uploads use /2/files/upload_session with 8 MiB parts; small files take the simpler /2/files/upload endpoint. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-dropbox-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-ftp",
+    "name": "FTP/FTPS Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-ftp",
+    "description": "Back up containers to an FTP (RFC 959) or FTPS (RFC 4217) server. Auth methods: anonymous, password, FTPS-explicit (AUTH TLS), FTPS-implicit (port 990), and client-certificate (mTLS).",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-ftp-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-google-drive",
+    "name": "Google Drive Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-google-drive",
+    "description": "Back up containers to Google Drive via the Drive API v3 resumable upload protocol. OAuth refresh-token flow (drive.file scope, offline access). Large backups use resumable chunked uploads so there is no size cap. Same Test round-trip shape as the built-in local destination (write / change / delete).",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-google-drive-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-nextcloud",
+    "name": "Nextcloud Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-nextcloud",
+    "description": "Back up containers to a Nextcloud instance via WebDAV (RFC 4918). Two auth modes: OAuth 2.0 refresh-token flow (with the operator creating an OAuth2 client in /settings/admin/oauth2) or direct app-password authentication (the operator generates an app password in Personal settings → Security). Chunked uploads use the WebDAV PUT stream with Content-Length + Content-Range; large uploads work because Nextcloud's WebDAV server supports chunked ranges server-side. Same Test round-trip shape (write / change / delete) as the SharePoint and Google Drive plugins.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-nextcloud-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-nfs",
+    "name": "NFS Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-nfs",
+    "description": "Back up containers to an NFS (RFC 7530) export. AUTH_SYS (UID-based) plus Kerberos flavors (krb5/krb5i/krb5p) via the kernel nfs client. Linux-only.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-nfs-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-onedrive-business",
+    "name": "OneDrive for Business Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/storage-onedrive-business",
+    "description": "Back up containers to OneDrive for Business via the tenant-scoped Microsoft Graph API. Targets /users/{upn}/drive (UPN field) or /drives/{drive_id} when an explicit Graph drive ID is supplied, with /me/drive as the final fallback under refresh-token auth. OAuth scopes: offline_access Files.ReadWrite.All User.Read. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete). Splits the old storage-microsoft-office365 plugin so OneDrive for Business and SharePoint have dedicated plugin surfaces — install only the surface you use.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-onedrive-business-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-onedrive-personal",
+    "name": "OneDrive (Personal) Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/storage-onedrive-personal",
+    "description": "Back up containers to a personal OneDrive account (consumer endpoint). Talks to Microsoft Graph /me/drive for upload/download/delete/list and login.microsoftonline.com/consumers for OAuth tokens. 1.0.4: embedded McSparrow-owned Azure AD app registration is now a real client_id (10c8115f-452f-48b1-9d5b-878ce7e243eb) — no Azure AD setup required for the default experience. Public-client / Mobile-and-desktop-app flow, no client_secret needed.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.4",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-onedrive-personal-1.0.4.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-opencloud",
+    "name": "OpenCloud Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-opencloud",
+    "description": "Back up containers to an OpenCloud instance via WebDAV (RFC 4918). OpenCloud is a Nextcloud-compatible server (same protocol surface) so the plugin uses the Nextcloud WebDAV paths (/remote.php/dav/files/{user}/). Two auth modes: OAuth 2.0 refresh-token flow or direct app-password authentication. Chunked uploads use Content-Range PUT, supported server-side by OpenCloud's WebDAV. Same Test round-trip shape (write / change / delete) as the SharePoint, Google Drive, and Nextcloud plugins.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-opencloud-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-owncloud",
+    "name": "ownCloud Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-owncloud",
+    "description": "Back up containers to an ownCloud (Classic) instance via WebDAV (RFC 4918). ownCloud uses the same WebDAV surface as Nextcloud (/remote.php/dav/files/{user}/) for compatibility, so the plugin uses the same path and Basic auth flow as the Nextcloud plugin. Two auth modes: OAuth 2.0 refresh-token flow or direct app-password authentication. Chunked uploads use Content-Range PUT, supported server-side by ownCloud's WebDAV. Same Test round-trip shape (write / change / delete) as the SharePoint, Google Drive, and Nextcloud plugins.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-owncloud-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-samba",
+    "name": "Samba (SMB) Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-samba",
+    "description": "Back up containers to a Samba (SMB) share via TCP (port 445) using hirochachacha/go-smb2. Three auth modes: guest (configurable guest account, requires `guest ok = yes` on the share), basic (NTLMv2 workgroup user + password), and domain (NTLMv2 with explicit Windows domain). Same Test round-trip shape as the built-in local destination (credentials / write / change / delete).",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-samba-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-sftp",
+    "name": "SFTP Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-sftp",
+    "description": "Back up containers to an SFTP (SSH File Transfer Protocol) server. Auth methods: password, publickey (SSH private key + optional passphrase), keyboard-interactive (RFC 4256 — Duo / Okta / SecurID), and SSH agent.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-sftp-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-sharepoint-online",
+    "name": "SharePoint Online Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "McHarbor",
+    "homepage": "https://mcharbor.io/plugins/storage-sharepoint-online",
+    "description": "Back up containers to a SharePoint document library via the tenant-scoped Microsoft Graph API. Targets /sites/{site_id}/drive (SharePoint site ID, e.g. contoso.sharepoint.com,guid1,guid2) or /drives/{drive_id} when an explicit Graph drive ID is supplied. OAuth scopes: offline_access Files.ReadWrite.All Sites.ReadWrite.All User.Read. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete). Splits the old storage-microsoft-office365 plugin so OneDrive for Business and SharePoint have dedicated plugin surfaces — install only the surface you use.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-sharepoint-online-1.0.0.tar.gz"
+      }
+    ]
+  },
+  {
+    "slug": "storage-truenas",
+    "name": "TrueNAS Storage Destination",
+    "author": "McSparrow <hi@mcsparrow.dev>",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/plugins/storage-truenas",
+    "description": "Back up containers to a TrueNAS instance via WebDAV (RFC 4918). TrueNAS exposes WebDAV on the share's configured path (default `/webdav` for the standard WebDAV share). Operators authenticate with a local TrueNAS user + password over HTTP Basic auth. Chunked uploads use Content-Range PUT; the TrueNAS Samba server is built on samba.org which supports Content-Range PUT in WebDAV. Same Test round-trip shape (write / change / delete) as the SharePoint, Google Drive, and Nextcloud plugins.",
+    "category": "storage",
+    "icon": "plugin.svg",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/therealmcsparrow/McHarbor-AddOns/main/plugins/files/storage-truenas-1.0.0.tar.gz"
+      }
+    ]
+  }
+]
