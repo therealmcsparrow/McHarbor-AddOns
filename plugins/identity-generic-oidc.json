@@ -1,0 +1,16 @@
+{
+  "slug": "identity-generic-oidc",
+  "name": "Generic OIDC Identity Provider",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/identity-generic-oidc",
+  "description": "Generic OIDC identity provider. Discover the authorization endpoint, token endpoint, JWKS, and userinfo endpoint from any issuer's <issuer>/.well-known/openid-configuration. Works with Okta, Auth0, Keycloak, Authentik, Authelia, Google, Azure AD, AWS Cognito, and any other spec-compliant OIDC provider. Required fields: issuer_url, client_id, client_secret, default_role_id; optional scopes (defaults to 'openid profile email'). Does not fetch groups \u2014 group mapping is not supported for generic OIDC. Tile shows up in Settings > Security > Identity Providers as 'Generic OIDC'.",
+  "category": "Identity providers",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/identity-generic-oidc-1.0.0.tar.gz"
+    }
+  ]
+}

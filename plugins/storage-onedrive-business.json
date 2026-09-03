@@ -1,0 +1,16 @@
+{
+  "slug": "storage-onedrive-business",
+  "name": "OneDrive for Business Storage Destination",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/storage-onedrive-business",
+  "description": "Back up containers to OneDrive for Business via the tenant-scoped Microsoft Graph API. Targets /users/{upn}/drive (UPN field) or /drives/{drive_id} when an explicit Graph drive ID is supplied, with /me/drive as the final fallback under refresh-token auth. OAuth scopes: offline_access Files.ReadWrite.All User.Read. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete). Splits the old storage-microsoft-office365 plugin so OneDrive for Business and SharePoint have dedicated plugin surfaces \u2014 install only the surface you use.",
+  "category": "storage",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/storage-onedrive-business-1.0.0.tar.gz"
+    }
+  ]
+}

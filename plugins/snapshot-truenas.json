@@ -1,0 +1,16 @@
+{
+  "slug": "snapshot-truenas",
+  "name": "TrueNAS Snapshot Driver",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/snapshot-truenas",
+  "description": "TrueNAS SCALE / CORE snapshot repository via the middleware REST API. Filesystem-level ZFS snapshots without `docker pause`.",
+  "category": "snapshots",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/snapshot-truenas-1.0.0.tar.gz"
+    }
+  ]
+}

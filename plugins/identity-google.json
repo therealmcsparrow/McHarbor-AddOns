@@ -1,0 +1,16 @@
+{
+  "slug": "identity-google",
+  "name": "Google Workspace Identity Provider",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/identity-google",
+  "description": "Google Workspace identity provider (also works for personal @gmail.com accounts). OIDC authorization-code flow against accounts.google.com plus the Google Admin SDK Directory API for group fetching when a domain is configured. Required fields: client_id, client_secret, default_role_id; optional hosted_domain (lock to a Workspace), scopes, group_filter. Tile shows up in Settings > Security > Identity Providers as 'Google'.",
+  "category": "Identity providers",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/identity-google-1.0.0.tar.gz"
+    }
+  ]
+}

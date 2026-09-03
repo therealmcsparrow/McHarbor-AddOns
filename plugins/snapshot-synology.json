@@ -1,0 +1,16 @@
+{
+  "slug": "snapshot-synology",
+  "name": "Synology DSM Snapshot Driver",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/snapshot-synology",
+  "description": "Synology DSM snapshot repository via the DSM 7.x REST API. Filesystem-level snapshots without `docker pause`.",
+  "category": "snapshots",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/snapshot-synology-1.0.0.tar.gz"
+    }
+  ]
+}

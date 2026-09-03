@@ -1,0 +1,16 @@
+{
+  "slug": "addon-reporting",
+  "name": "Reporting",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/Plugins/addon-reporting",
+  "description": "Generate board-presentable reports on environments, workloads, incidents, security, capacity, delivery and recovery. Each report is organised by management altitude \u2014 strategic, tactical and operational \u2014 is readable inside McHarbor, and exports to PDF and Word with the product's own typography and marks.",
+  "category": "Reporting",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/addon-reporting-1.0.0.tar.gz"
+    }
+  ]
+}

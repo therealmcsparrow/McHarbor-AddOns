@@ -1,0 +1,16 @@
+{
+  "slug": "identity-entra-id",
+  "name": "Microsoft Entra ID Identity Provider",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/identity-entra-id",
+  "description": "Microsoft Entra ID identity provider. OIDC authorization-code flow against the v2.0 endpoints at login.microsoftonline.com plus the Microsoft Graph API for group fetching. Required fields: tenant_id (directory or tenant GUID), client_id, client_secret, default_role_id; optional scopes, group_filter, admin_consent. Tile shows up in Settings > Security > Identity Providers as 'Microsoft Entra ID'.",
+  "category": "Identity providers",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/identity-entra-id-1.0.0.tar.gz"
+    }
+  ]
+}

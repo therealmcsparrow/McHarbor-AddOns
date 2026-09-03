@@ -1,0 +1,16 @@
+{
+  "slug": "storage-onedrive-personal",
+  "name": "OneDrive (Personal) Storage Destination",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/storage-onedrive-personal",
+  "description": "Back up containers to a personal OneDrive account (consumer endpoint). Talks to Microsoft Graph /me/drive for upload/download/delete/list and login.microsoftonline.com/consumers for OAuth tokens. 1.0.4: embedded McSparrow-owned Azure AD app registration is now a real client_id (10c8115f-452f-48b1-9d5b-878ce7e243eb) \u2014 no Azure AD setup required for the default experience. Public-client / Mobile-and-desktop-app flow, no client_secret needed.",
+  "category": "storage",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.4",
+      "download_url": "file:///mnt/plugin-catalog/files/storage-onedrive-personal-1.0.4.tar.gz"
+    }
+  ]
+}

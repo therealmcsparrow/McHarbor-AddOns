@@ -1,0 +1,16 @@
+{
+  "slug": "identity-saml",
+  "name": "SAML 2.0 Identity Provider",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/identity-saml",
+  "description": "SAML 2.0 service provider. Hosts the SP metadata at /api/identity-providers/{id}/metadata (consumed by the IdP) and accepts AuthnResponse POSTs at /api/identity-providers/acs. Required fields: entity_id (SP entity ID), default_role_id; optional metadata_url (auto-populate IdP SSO URL + cert), idp_entity_id, idp_sso_url, idp_certificate, group_attribute_name. Compatible with Okta, Azure AD, OneLogin, Auth0, Google Workspace, AD FS. Tile shows up in Settings > Security > Identity Providers as 'SAML 2.0'.",
+  "category": "Identity providers",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/identity-saml-1.0.0.tar.gz"
+    }
+  ]
+}

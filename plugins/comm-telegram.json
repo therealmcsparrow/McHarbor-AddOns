@@ -1,0 +1,16 @@
+{
+  "slug": "comm-telegram",
+  "name": "Telegram Notification Channel",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/comm-telegram",
+  "description": "Route McHarbor workflow, alert, and backup events to a Telegram chat via the Bot API (https://api.telegram.org/bot<token>/...). Create a bot with @BotFather, drop the bot_token + chat_id into the channel form, and the plugin handles Test (getMe liveness) + Send (sendMessage). Supports Markdown / HTML parse_mode and silent sends for low-priority alerts. Adds the channels:use-comm-telegram permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+  "category": "communication",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/comm-telegram-1.0.0.tar.gz"
+    }
+  ]
+}

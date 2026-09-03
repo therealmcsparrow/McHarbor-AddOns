@@ -1,0 +1,16 @@
+{
+  "slug": "identity-ldap",
+  "name": "LDAP Identity Provider",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/identity-ldap",
+  "description": "LDAP / Active Directory identity provider. Plug the bind credentials into McHarbor's login form; the plugin binds, searches for the user, optionally looks up group memberships, and provisions a session. Required fields: server_url (ldap:// or ldaps://), base_dn, bind_dn, bind_password, user_filter; optional group_search_base, group_filter, use_tls, skip_tls_verify. Works with OpenLDAP, 389-DS, FreeIPA, Active Directory. Tile shows up in Settings > Security > Identity Providers as 'LDAP'.",
+  "category": "Identity providers",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/identity-ldap-1.0.0.tar.gz"
+    }
+  ]
+}

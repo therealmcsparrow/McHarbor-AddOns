@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  comm-teams channel tile — Microsoft Teams brand mark on a
+  neutral surface. Used by the channel picker + backup overview
+  tiles. Same path as teams.svg but rendered without the
+  rounded-square background so it composes against arbitrary
+  surfaces.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <rect x="3" y="3" width="14" height="14" rx="3" fill="#5059C9"/>
+  <rect x="5.5" y="5.5" width="7" height="4.5" rx="0.5" fill="#7B83EB"/>
+  <rect x="8.25" y="5.5" width="1.5" height="9" rx="0.4" fill="#7B83EB"/>
+  <path d="M17.5 9.5 C 20 9.5, 21 11, 21 12.5 C 21 14, 20 15.5, 17.5 15.5 L 14 15.5 L 14 12.5 C 14 10.5, 15.5 9.5, 17.5 9.5 Z" fill="#5059C9"/>
+  <circle cx="16.5" cy="12.5" r="0.9" fill="#7B83EB"/>
+  <circle cx="18.5" cy="12.5" r="0.9" fill="#7B83EB"/>
+</svg>

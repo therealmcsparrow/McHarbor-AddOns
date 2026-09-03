@@ -1,0 +1,16 @@
+{
+  "slug": "comm-signal",
+  "name": "Signal Notification Channel",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/comm-signal",
+  "description": "Route McHarbor workflow, alert, and backup events to a Signal phone number via one of four connection methods selected at channel-config time: official signal-cli-rest-api (POST /v2/send with optional HTTP Basic auth), token-based Signal bot server (POST /message with Bearer token), signald daemon JSON-RPC 2.0 API (POST /v1/accounts/<account>/rpc), or a no-auth community relay (POST /send). The plugin handles Test (cheap credential round-trip) and Send (real message to the recipient) \u2014 Signal gateways use pre-registered numbers + bearer tokens, so there is no OAuth flow. Adds the channels:use-comm-signal permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+  "category": "communication",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/comm-signal-1.0.0.tar.gz"
+    }
+  ]
+}

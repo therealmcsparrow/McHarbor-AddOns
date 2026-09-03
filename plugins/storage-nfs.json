@@ -1,0 +1,16 @@
+{
+  "slug": "storage-nfs",
+  "name": "NFS Storage Destination",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://github.com/therealmcsparrow/McHarbor-AddOns/tree/main/Plugins/storage-nfs",
+  "description": "Back up containers to an NFS (RFC 7530) export. AUTH_SYS (UID-based) plus Kerberos flavors (krb5/krb5i/krb5p) via the kernel nfs client. Linux-only.",
+  "category": "storage",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/storage-nfs-1.0.0.tar.gz"
+    }
+  ]
+}

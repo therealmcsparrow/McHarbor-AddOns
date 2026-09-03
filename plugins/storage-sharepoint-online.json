@@ -1,0 +1,16 @@
+{
+  "slug": "storage-sharepoint-online",
+  "name": "SharePoint Online Storage Destination",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/storage-sharepoint-online",
+  "description": "Back up containers to a SharePoint document library via the tenant-scoped Microsoft Graph API. Targets /sites/{site_id}/drive (SharePoint site ID, e.g. contoso.sharepoint.com,guid1,guid2) or /drives/{drive_id} when an explicit Graph drive ID is supplied. OAuth scopes: offline_access Files.ReadWrite.All Sites.ReadWrite.All User.Read. Same Test round-trip shape as the built-in local destination (credentials / write / change / delete). Splits the old storage-microsoft-office365 plugin so OneDrive for Business and SharePoint have dedicated plugin surfaces \u2014 install only the surface you use.",
+  "category": "storage",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/storage-sharepoint-online-1.0.0.tar.gz"
+    }
+  ]
+}

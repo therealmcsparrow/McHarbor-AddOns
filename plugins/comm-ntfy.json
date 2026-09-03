@@ -1,0 +1,16 @@
+{
+  "slug": "comm-ntfy",
+  "name": "ntfy Notification Channel",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/comm-ntfy",
+  "description": "Route McHarbor workflow, alert, and backup events to an ntfy topic via HTTP POST (https://ntfy.sh or self-hosted). Set the server URL + topic, optionally add a topic-scoped access token or HTTP Basic auth, and the plugin handles Test (publishes a real test message) + Send (publishes Title as the Title header and Message as the body). Supports priority levels (min/low/default/high/urgent) and emoji tags. Adds the channels:use-comm-ntfy permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+  "category": "communication",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/comm-ntfy-1.0.0.tar.gz"
+    }
+  ]
+}

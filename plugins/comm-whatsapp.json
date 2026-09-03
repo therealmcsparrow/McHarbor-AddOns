@@ -1,0 +1,16 @@
+{
+  "slug": "comm-whatsapp",
+  "name": "WhatsApp Notification Channel",
+  "author": "McSparrow <hi@mcsparrow.dev>",
+  "license": "McHarbor",
+  "homepage": "https://mcharbor.io/plugins/comm-whatsapp",
+  "description": "Route McHarbor workflow, alert, and backup events to a WhatsApp phone number via one of four connection methods selected at channel-config time: Meta Cloud API (graph.facebook.com /v21.0/<phone_id>/messages), self-hosted gateway (Baileys/wa-gateway/etc.), WhatsApp Business API platform (360dialog-style), or a third-party SaaS messaging provider (Twilio, MessageBird, Gupshup, ...). The plugin handles Test (cheap credential round-trip) and Send (real message to the recipient) \u2014 there is no OAuth flow because WhatsApp providers use long-lived tokens. Adds the channels:use-comm-whatsapp permission so operators can grant 'send alerts via this channel' as a discrete, auditable capability.",
+  "category": "communication",
+  "icon": "plugin.svg",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "download_url": "file:///mnt/plugin-catalog/files/comm-whatsapp-1.0.0.tar.gz"
+    }
+  ]
+}
